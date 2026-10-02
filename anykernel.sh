@@ -36,7 +36,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 # Auto-detect variant from zip name
 case "$ZIPFILE" in
-  *N0Kernel*) v=default;;
+  *Perf-X*) v=default;;
   *-miui)     v=miui;;
 esac
 
